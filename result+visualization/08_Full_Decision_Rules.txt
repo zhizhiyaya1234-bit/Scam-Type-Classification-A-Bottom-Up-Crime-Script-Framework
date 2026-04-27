@@ -1,0 +1,76 @@
+|--- contact_primary_CON1_盲发广撒触达 <= 0.50
+|   |--- contact_primary_CON6_受害者主动上门 <= 0.50
+|   |   |--- trust_primary_TRU1_公权身份伪装 <= 0.50
+|   |   |   |--- contact_primary_CON2_社交平台搭讪 <= 0.50
+|   |   |   |   |--- contact_primary_CON4_冒名定向联络 <= 0.50
+|   |   |   |   |   |--- class: 熟人推荐-伪专家高息兑付类诈骗
+|   |   |   |   |--- contact_primary_CON4_冒名定向联络 >  0.50
+|   |   |   |   |   |--- class: 冒名定向联络-熟人关系包装-恐吓施压榨取类诈骗
+|   |   |   |--- contact_primary_CON2_社交平台搭讪 >  0.50
+|   |   |   |   |--- manipulation_primary_MAN3_情感绑架操控 <= 0.50
+|   |   |   |   |   |--- class: 社交搭讪-伪专业人设诱导虚假交易类诈骗
+|   |   |   |   |--- manipulation_primary_MAN3_情感绑架操控 >  0.50
+|   |   |   |   |   |--- class: 社交搭讪-伪造身份恋爱关系类诈骗
+|   |   |--- trust_primary_TRU1_公权身份伪装 >  0.50
+|   |   |   |--- extraction_primary_EXT5_线下现金交割 <= 0.50
+|   |   |   |   |--- contact_primary_CON5_线下物理接触 <= 0.50
+|   |   |   |   |   |--- class: 冒充公权-司法威压榨取类诈骗
+|   |   |   |   |--- contact_primary_CON5_线下物理接触 >  0.50
+|   |   |   |   |   |--- class: 定向冒充-公权身份恐吓榨取类诈骗
+|   |   |   |--- extraction_primary_EXT5_线下现金交割 >  0.50
+|   |   |   |   |--- operation_primary_OPR3_点击链接填写信息 <= 0.50
+|   |   |   |   |   |--- class: 定向冒充-公权身份恐吓榨取类诈骗
+|   |   |   |   |--- operation_primary_OPR3_点击链接填写信息 >  0.50
+|   |   |   |   |   |--- class: 冒充公权-司法威压榨取类诈骗
+|   |--- contact_primary_CON6_受害者主动上门 >  0.50
+|   |   |--- trust_primary_TRU4_专业人设包装 <= 0.50
+|   |   |   |--- manipulation_primary_MAN6_沉没成本追加 <= 0.50
+|   |   |   |   |--- manipulation_primary_MAN3_情感绑架操控 <= 0.50
+|   |   |   |   |   |--- class: 虚假平台引流-冒牌机构高收益诱导类诈骗
+|   |   |   |   |--- manipulation_primary_MAN3_情感绑架操控 >  0.50
+|   |   |   |   |   |--- class: 社交搭讪-伪造身份恋爱关系类诈骗
+|   |   |   |--- manipulation_primary_MAN6_沉没成本追加 >  0.50
+|   |   |   |   |--- prep_primary_PREP0_未提及 <= 0.50
+|   |   |   |   |   |--- class: 主动搜索-专业人设高收益类诈骗
+|   |   |   |   |--- prep_primary_PREP0_未提及 >  0.50
+|   |   |   |   |   |--- class: 主动搜索-专业人设高收益类诈骗
+|   |   |--- trust_primary_TRU4_专业人设包装 >  0.50
+|   |   |   |--- manipulation_primary_MAN4_制造紧急时限 <= 0.50
+|   |   |   |   |--- operation_primary_OPR0_未提及 <= 0.50
+|   |   |   |   |   |--- class: 主动搜索-专业人设高收益类诈骗
+|   |   |   |   |--- operation_primary_OPR0_未提及 >  0.50
+|   |   |   |   |   |--- class: 主动搜索-专业人设高收益类诈骗
+|   |   |   |--- manipulation_primary_MAN4_制造紧急时限 >  0.50
+|   |   |   |   |--- class: 虚假平台引流-冒牌机构高收益诱导类诈骗
+|--- contact_primary_CON1_盲发广撒触达 >  0.50
+|   |--- trust_primary_TRU1_公权身份伪装 <= 0.50
+|   |   |--- operation_primary_OPR1_下载安装应用 <= 0.50
+|   |   |   |--- prep_primary_PREP4_无明显前期准备 <= 0.50
+|   |   |   |   |--- operation_primary_OPR2_共享屏幕远程控制 <= 0.50
+|   |   |   |   |   |--- class: 盲发短信-冒用权威机构-账户权限接管类诈骗
+|   |   |   |   |--- operation_primary_OPR2_共享屏幕远程控制 >  0.50
+|   |   |   |   |   |--- class: 盲发短信-冒用权威机构-账户权限接管类诈骗
+|   |   |   |--- prep_primary_PREP4_无明显前期准备 >  0.50
+|   |   |   |   |--- extraction_primary_EXT6_账户权限接管 <= 0.50
+|   |   |   |   |   |--- class: 盲发短信-冒用权威机构-账户权限接管类诈骗
+|   |   |   |   |--- extraction_primary_EXT6_账户权限接管 >  0.50
+|   |   |   |   |   |--- class: 冒充客服-权威机构仿冒恐吓类诈骗
+|   |   |--- operation_primary_OPR1_下载安装应用 >  0.50
+|   |   |   |--- prep_primary_PREP4_无明显前期准备 <= 0.50
+|   |   |   |   |--- class: 虚假平台引流-冒牌机构高收益诱导类诈骗
+|   |   |   |--- prep_primary_PREP4_无明显前期准备 >  0.50
+|   |   |   |   |--- class: 冒充客服-权威机构仿冒恐吓类诈骗
+|   |--- trust_primary_TRU1_公权身份伪装 >  0.50
+|   |   |--- extraction_primary_EXT5_线下现金交割 <= 0.50
+|   |   |   |--- prep_primary_PREP3_数据名单获取 <= 0.50
+|   |   |   |   |--- class: 广撒网-公权恐吓诱导填密转账类诈骗
+|   |   |   |--- prep_primary_PREP3_数据名单获取 >  0.50
+|   |   |   |   |--- extraction_primary_EXT1_银行转账 <= 0.50
+|   |   |   |   |   |--- class: 广撒网-公权恐吓诱导填密转账类诈骗
+|   |   |   |   |--- extraction_primary_EXT1_银行转账 >  0.50
+|   |   |   |   |   |--- class: 冒充公权-司法威压榨取类诈骗
+|   |   |--- extraction_primary_EXT5_线下现金交割 >  0.50
+|   |   |   |--- operation_primary_OPR6_上传证件人脸识别 <= 0.50
+|   |   |   |   |--- class: 定向冒充-公权身份恐吓榨取类诈骗
+|   |   |   |--- operation_primary_OPR6_上传证件人脸识别 >  0.50
+|   |   |   |   |--- class: 定向冒充-公权身份恐吓榨取类诈骗
