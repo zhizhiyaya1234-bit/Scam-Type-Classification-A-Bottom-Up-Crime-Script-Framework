@@ -1,5 +1,4 @@
-# Scam-Type-Classification-A-Bottom-Up-Crime-Script-Framework
-# 🛡️ 诈骗行为链路自动化研判与预警系统 (Anti-Scam MO Analysis System)
+# Scam-Type-Classification-A-Bottom-Up-Crime-Script-Framework / 🛡️ 诈骗行为链路自动化研判与预警系统 (Anti-Scam MO Analysis System)
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://替换成你的真实网页链接.streamlit.app)
 
