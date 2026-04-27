@@ -1,2 +1,2 @@
 # Scam-Type-Classification-A-Bottom-Up-Crime-Script-Framework
-This study develops a bottom-up anti-scam classification framework based on multilingual scam-related news reports.
+This study proposes an innovative bottom-up framework. Rather than starting from fixed scam types, we begin with multilingual scam-related news reports to investigate what recurrent behavioral structures can be recovered directly from the data itself. The central assumption of this study is that scam types are better understood as repeated procedural patterns (Crime Scripts).
